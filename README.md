@@ -15,7 +15,7 @@ $events = array(
     ),
     array(
         'summary' => 'Anniversaire',
-        'description' => 'Célébration de mon anniversaire', //Champ obligatoire
+        'description' => 'Célébration de mon anniversaire', //Champ non-obligatoire
         'date_start' => '2024-02-17T00:00:00', //Champ obligatoire, le format de la date doit être comme dans l'exemple
         'date_end' => '2024-02-18T12:00:00', //Champ obligatoire, le format de la date doit être comme dans l'exemple
         'summary' => 'RTT', //Champ obligatoire
