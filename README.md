@@ -14,7 +14,7 @@ $events = array(
         'location' => 'Hôpital', //Champ non-obligatoire
     ),
     array(
-        'summary' => 'Anniversaire',
+        'summary' => 'Anniversaire', //Champ obligatoire
         'description' => 'Célébration de mon anniversaire', //Champ non-obligatoire
         'date_start' => '2024-02-17T00:00:00', //Champ obligatoire, le format de la date doit être comme dans l'exemple
         'date_end' => '2024-02-18T12:00:00', //Champ obligatoire, le format de la date doit être comme dans l'exemple
