@@ -1,13 +1,23 @@
 <?php
+/* Declaring the namespace of the class. */
 namespace ECalendar;
 
 class ECalendar{
+    /* Declaring a public property of the class called events, which is an array. */
     public array $events;
 
+    /**
+     * The function takes an array of events and assigns it to the events property of the class
+     * 
+     * @param events The events that the listener is listening for.
+     */
     public function __construct($events){
         $this->events = $events;
     }
 
+    /**
+     * The function takes an array of events, and creates an iCalendar file from them
+     */
     public function exportCalendar(){
         $ical = "BEGIN:VCALENDAR\n";
         $ical .= "VERSION:2.0\n";
