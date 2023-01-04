@@ -3,7 +3,7 @@
 ### Documentation :
 Exemple d'utilisation : 
 ```php
-//Events à exporter
+//Events à exporter pas de limites
 $events = array(
     array(
         'summary' => 'Réunion de travail', //Champ obligatoire
